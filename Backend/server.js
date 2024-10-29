@@ -14,6 +14,7 @@ dotenv.config({
 connectDatabase()
 
 const app = express() ;
+const _dirname = path.resolve();
 
 app.use(express.json())
 app.use(cors())
@@ -24,7 +25,11 @@ app.use(customErrorHandler)
 
 const PORT = process.env.PORT || 5000 ;
 
-app.use(express.static(path.join(__dirname , "public") ))
+app.use(express.static(path.join(_dirname , "/Frontend/build") ))
+
+app.get('*', (req,res) => {
+    res.sendFile(path.resolve(_dirname, "Frontend", "build", "index.html"))
+})
 
 const server = app.listen(PORT,()=>{
 

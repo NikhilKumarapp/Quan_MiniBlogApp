@@ -2861,6 +2861,24 @@ babel-preset-react-app@^10.0.1:
     babel-plugin-macros "^3.1.0"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
 
+"backend@file:..":
+  version "1.0.0"
+  resolved "file:.."
+  dependencies:
+    bcryptjs "^2.4.3"
+    cors "^2.8.5"
+    dotenv "^15.0.0"
+    express "^4.17.2"
+    express-async-handler "^1.2.0"
+    jsonwebtoken "^8.5.1"
+    mongoose "^6.1.8"
+    multer "^1.4.4"
+    nodemailer "^6.7.2"
+    nodemon "^2.0.15"
+    path "^0.12.7"
+    pm2 "^5.3.0"
+    slugify "^1.6.5"
+
 balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
@@ -3039,9 +3057,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001286, caniuse-lite@^1.0.30001297:
-  version "1.0.30001304"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001304.tgz"
-  integrity sha512-bdsfZd6K6ap87AGqSHJP/s1V+U6Z5lyrcbBu3ovbCCf8cSYpwTtGrCBObMpJqwxfTbLW6YTIdbb1jEeTelcpYQ==
+  version "1.0.30001674"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001674.tgz"
+  integrity sha512-jOsKlZVRnzfhLojb+Ykb+gyUSp9Xb57So+fAiFlLzzTKpqg8xxSav0e40c8/4F/v9N8QSvrRRaLeVzQbLqomYw==
 
 case-sensitive-paths-webpack-plugin@^2.4.0:
   version "2.4.0"
