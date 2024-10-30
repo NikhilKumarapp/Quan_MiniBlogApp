@@ -119,7 +119,7 @@ const EditProfile = () => {
                                     <div class="absolute">
                                         Currently Image
                                     </div>
-                                    <img src={`https://quan-miniblogapp.onrender.com/userPhotos/${previousPhoto}`} alt="userPhoto" />
+                                    <img src={`/userPhotos/${previousPhoto}`} alt="userPhoto" />
                                 </div>
 
                             </div>

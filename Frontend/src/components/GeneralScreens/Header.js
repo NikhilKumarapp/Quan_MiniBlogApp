@@ -38,7 +38,7 @@ const Header = () => {
 
                 <Link to="/" className="logo">
                     <h5>
-                        Mini Blog App
+                        MERN BLOG
 
                     </h5>
                 </Link>
@@ -49,7 +49,7 @@ const Header = () => {
                         <div className="auth_options">
 
 
-                            <Link className='addStory-link' to="/addstory"><RiPencilFill /> Add Blog </Link>
+                            <Link className='addStory-link' to="/addstory"><RiPencilFill /> Add Story </Link>
 
 
                             <Link to="/readList" className='readList-link'>

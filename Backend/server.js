@@ -26,6 +26,8 @@ app.use(customErrorHandler)
 const PORT = process.env.PORT || 5000 ;
 
 app.use(express.static(path.join(_dirname , "/Frontend/build") ))
+app.use('/storyImages', express.static(path.join(__dirname, '/public/storyImages')));
+app.use('/userPhotos', express.static(path.join(__dirname, '/public/userPhotos')));
 
 app.get('*', (req,res) => {
     res.sendFile(path.resolve(_dirname, "Frontend", "build", "index.html"))
